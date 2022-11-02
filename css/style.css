@@ -18,6 +18,17 @@ h2{
     font-size: 2.5rem;
 }
 
+h4{
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
 /* header */
 .height-resize{
     height: 65px;
@@ -46,4 +57,23 @@ button{
 
 button:hover{
     border-color: goldenrod;
+}
+
+.error{
+    border: 2px solid rgb(169, 3, 3);
+    transition: 0.5s;
+}
+
+/* ticket */
+.ticket-height{
+    height: 220px;
+}
+
+.ticket-height .row{
+    border-top: 2px solid var( --bs-secondary);
+    border-bottom: 2px solid var( --bs-secondary);
+}
+
+.ticket-height .col{
+    height: 135px;
 }
